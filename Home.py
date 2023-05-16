@@ -29,6 +29,7 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
+        #st.image(f"images/{row['image']}") - My idea and its working
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
